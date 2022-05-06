@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "start": "nodemon --experimental-json-modules --exec babel-node server.js",
-    "debug": "DEBUG=express:* nodemon --inspect --experimental-json-modules server.js"
+    "debug": "DEBUG=express:* nodemon --inspect --experimental-json-modules --exec babel-node server.js"
   },
   "author": "Carlos Gonzalez",
   "license": "ISC",
