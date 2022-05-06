@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon --inspect --experimental-json-modules server.js",
+    "start": "nodemon --experimental-json-modules --exec babel-node server.js",
     "debug": "DEBUG=express:* nodemon --inspect --experimental-json-modules server.js"
   },
   "author": "Carlos Gonzalez",
