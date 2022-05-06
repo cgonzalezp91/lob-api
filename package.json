@@ -1,0 +1,29 @@
+{
+  "name": "lob-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Small API made for a study case",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --inspect --experimental-json-modules server.js",
+    "debug": "DEBUG=express:* nodemon --inspect --experimental-json-modules server.js"
+  },
+  "author": "Carlos Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "jest":{
+    "testEnvironment":"node"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  }
+}
